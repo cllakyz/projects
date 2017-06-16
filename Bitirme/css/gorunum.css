@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.ttf');
+    src: url('Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body{
+	min-height: 100% !important;
+    height: 100%;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Montserrat";
+}
+
+.header{
+	margin: 15px;
+	width: 90%;
+	background: black;
+	color: white;
+	padding: 25px 10px;
+	font-size: 30px;
+	display: inline-block;
+	text-align: center;
+}
+
+.panel-user-wrapper {
+    overflow: auto;
+}
+
+.style1 .panel-user {
+    display: inline-block;
+    text-align: left;
+    margin: 20px 15px 20px 20px;
+    float: left;
+}
+
+.style1 .panel-user-name {
+    display: inline-block;
+    color: #2FC8F2;
+    font-size: 13px;
+    font-weight: 600;
+    vertical-align: top;
+    margin-top: 25px;
+}
+
+.style1 .panel-user img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.header_text{
+	text-align: center;
+}
+
+.header_icon{
+	float: right;
+	width: 10%;
+}
+
+.header_icon a{
+	color: #fff;
+	font-size: 25px;
+}
+
+select{
+	padding: 5px;
+	margin-top: 5px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+/* Popup Styles*/
+
+.popupContainer{
+	position:absolute;
+	width:60%;
+	height: auto;
+	border: 1px solid black;
+	background: #FFF;
+}
+
+.popupHeader {font-size:16px; text-transform: uppercase;}
+.popupHeader {background:#F4F4F2; position:relative; padding:10px 20px; border-bottom:1px solid #DDD; font-weight:bold;}
+.popupHeader .modal_close,.popupHeader .close_Adres,.popupHeader .close_Iletisim {position: absolute; right: 0; top:0; padding:10px 15px; background:#E4E4E2; cursor: pointer; color:#aaa; font-size:16px;}
+.popupBody {padding:20px;}
+.popupBody .form{padding: 15px 20%;}
+.popupBody .form label{width: 40%; margin-right: 15px;}
+.popupBody .form .btn,.formBirim .btn{margin: 25px 30%;}
+.popupBody .formBirim .tab-content{width: 100%;}
+
+.formBirim #birimIlce .glyphicon{display: none;}
+#birim{margin-top: 15px;margin-left: 20%;}
+.tab-pane label{width: 20%;margin-right: 15px;}
+
+.ortakForm{margin-top: 5px;margin-left: 25px;}
+.ortakForm .btn{margin: 25px 30%;}
+.ortakForm label{width: 40%; margin-right: 15px;}
+.solPanel,.sagPanel{display: inline-block;width: 47%; margin-left: 15px; padding: 5px 5px;}
+.panelHeader{ padding: 15px; background: #4caf50; color: #fff; width: 100%; display: block; margin-bottom: 15px; text-align: center;}
+
+.stokContent{ width: 100%; height: 250px; }
+.stokContent div{ width: 45%; display: inline-block; float: left;}
+.sagContent div{ margin:5px 5%;	width: 100%;}
+#rfidContent{ height: 150px; }
+.stokBirimContent{border: 1px solid black;
+	padding: 2% 3%;
+	margin: 5px 5%;
+	text-align: center;
+	width: 80%;
+	background: #f3f2f5;
+	-webkit-box-shadow: 1px 2px 15px 2px black;
+	-moz-box-shadow: 1px 2px 15px 2px black;
+	box-shadow: 1px 2px 15px 2px black;}
+
+.body{
+	background-color: #b71c1c;
+}
+
+.container{
+	padding: 25px;
+	background-color: #263238;
+	margin: 5% 36%;
+	width: 30%;
+	height: 450px;
+	border-top:4px solid #bdbdbd;
+}
+
+.container p{ color: white; margin: 15% 30%; width: 100%;}
+.container input{color: white; background: #546e7a; margin-top:2%;padding: 5px;  width: 80%; border: none;}
+.container input[placeholder]{color: white}
+.login-panel span{margin:3% 8%;color: white; margin-right: 5px; display: inline-block;}
+.login-panel button{margin-top: 5%; margin-right: 15px; margin-left: 5px;}
+#lgnEmail{margin: 2% 20%; width: 60%;}
+#lgnGonder{margin: 2% 40%;}

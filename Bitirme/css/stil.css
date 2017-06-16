@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Regular.woff2');
+    src: url('Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+	height:100%;
+}
+
+body{
+	font-family: 'Montserrat';
+	height: 100%;
+}
+
+a{
+	cursor: pointer;
+}
+
+/* Sidebar CSS --- */
+
+#sidebar-wrapper{
+	z-index: 1;
+	position: absolute;
+	width: 250px;
+	height: 1024px;
+	overflow-y:hidden;
+	background: #2c333e;
+}
+
+#page-content-wrapper{
+	width: 100%;
+	position: absolute;
+	padding: 15px;
+}
+
+#wrapper.menuDisplayed #sidebar-wrapper{
+	width: 250px;
+}
+
+#wrapper.menuDisplayed #page-content-wrapper{
+	padding-left: 250px;
+}
+
+
+.sidebar-nav{
+	margin-top: 35px;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar-nav li{
+	text-indent: 10px;
+	line-height: 30px;
+  border-bottom: 1px solid #585858;
+}
+
+.sidebar-nav li:hover{
+	background: #16A085;
+}
+
+.sidebar-nav li ul{
+	background: #2C3E50;
+	cursor: pointer;
+}
+
+.sidebar-nav li a{
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+}
+
+.sub-list{
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+}
+
+/* Sidebar Son ---- */
+
+.row{
+	margin-left: 250px;
+}
+
+.page_header{
+	margin-left: 250px;
+	padding: 20px 35%;
+	background: black;
+	color: #fff;
+	float: left;
+}
+
+.search_form{
+	margin-top: 50px;
+	margin-left: 15px;
+	width: 90%;
+	padding: 15px;
+	-webkit-box-shadow: 1px 2px 15px 2px black;
+	-moz-box-shadow: 1px 2px 15px 2px black;
+	box-shadow: 1px 2px 15px 2px black;
+}
+
+.search_form input{
+	margin-top: 5px;
+	width: 65%;
+}
+
+.search_form form{
+	margin:0 20%;
+}
+
+.search_form label{
+	width: 20%;
+	margin-right: 15px;
+}
+
+.search_form form a{
+	font-size: 18px;
+}
+
+#denemeTablo .table{
+	margin-left: 15px;
+	margin-top: 75px;
+	width: 90%;
+}
