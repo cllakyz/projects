@@ -1,0 +1,9 @@
+Değişen  soğuk  oda  tipleri (aşı muhafaza alanları)  içerisinde  aşıların  belli  bir  düzende  saklanabilmeleri  için  aşıların formuna 
+uygun üretilen bu sistem, aşıların giriş, çıkış işlemlerinin gerçekleştirilmesi için, aşıların üzerinde  bulunan  rfid etiketleri, radyo 
+frekansı ile tanımlama teknolojisi, okuyan  rfid  okuyucular  ve  dolaplarda  aşıların  sıcaklıklarının takip edilmesi  için  sıcaklık  
+sensörüne  sahiptir. Rfid okuyucular, sisteme  girilen aşı bilgisini alıp internet bağlantısı üzerinden sunucuya(web sayfasının çalışması 
+için ayrılmış bilgisayar)  gönderdikten sonra giriş işlemini gerçekleştirir, aynı zamanda  girişi yapılan aşının,  çıkışı yapılmak 
+istendiğinde, aşı üzerinde bulunan rfid etiket üzerinden aşı bilgilerini sunucuya gönderip çıkış işlemini gerçekleştirir. Aynı zamanda 
+dolaplarda bulunan sıcaklık sensörleri yardımıyla, dolap bazlı aşı tüplerinin tazelik durumları anlık olarak kontrol edilir. Dolaplardaki 
+ani sıcaklık düşüş ve artışları kullanıcılara uyarı olarak bildirilir. Bu sistem ile aşıların tazeliği korunmuş ve kontrol edilebilir bir 
+şekilde giriş -çıkış işlemleri gerçekleştirilmiş olur.
